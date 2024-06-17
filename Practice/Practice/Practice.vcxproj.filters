@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CallocSample_Array.cpp">
+    <ClCompile Include="MaxOfArray.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
