@@ -1,5 +1,5 @@
 ﻿//==========================================================
-//	1〜Nの総和　while版 確認
+//	1〜Nの総和　式を表示する
 //==========================================================
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h> // sscanf(),scanf(),printf()
@@ -26,21 +26,19 @@ int main(int argc, char* argv[])
 void calcSum(int N)
 {
 	int sum = SumOfN(N);
-	printf("1~%dの総和は%d\n", N, sum);
+	// ここをコーディングしてください。
+	//  ヒント: "数値 + "か"数値 = " を表示する 
+	//  '+' か '=' かは３項演算子を使うと良い
+	for (int i = 2; i <= N; i++)
+		printf("%d+", i-1);
+	printf("%dの総和は%d\n", N, sum);
 }
 
 int SumOfN(int n)
 {
 	int sum = 0;
-	int i = 1;
-	while (i <= n) {
+	for (int i = 1; i <= n; i++) {
 		sum += i;
-		i++;
 	}
-	//
-	//  ここをコーディングしてください。
-	//   i の値をプリントして、n+1 になっていることを確認しましょう
-	printf("iの値の確認:%d\n", i);
-	//
 	return sum;
 }
