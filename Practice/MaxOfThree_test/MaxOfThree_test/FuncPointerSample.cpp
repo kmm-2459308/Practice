@@ -11,7 +11,7 @@ int mul(int a, int b);
 int main()
 {
     printf("‹ã‹ã‚Ì‰ÁZ•\\n");
-    //kuku(add);
+    kuku(add);
     printf("\n");
     printf("‹ã‹ã‚ÌæZ•\\n");
     kuku(mul);
