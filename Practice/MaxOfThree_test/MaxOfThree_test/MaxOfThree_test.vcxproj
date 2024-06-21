@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="IntQueue.h" />
+    <ClCompile Include="IntStack.cpp" />
+    <ClCompile Include="_Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="IntQueue.cpp" />
-    <ClCompile Include="Main_.cpp" />
+    <ClInclude Include="IntStack.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
