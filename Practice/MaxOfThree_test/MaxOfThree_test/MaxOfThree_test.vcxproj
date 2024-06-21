@@ -19,12 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ChainHash.h" />
+    <ClInclude Include="ClosedHash.h" />
     <ClInclude Include="Member.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ChainHash.cpp" />
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ClosedHash.cpp" />
+    <ClCompile Include="Ma_in.cpp" />
     <ClCompile Include="Member.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
