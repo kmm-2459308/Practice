@@ -15,21 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Member.h">
-      <Filter>ヘッダーファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="ClosedHash.h">
+    <ClInclude Include="IntQueue.h">
       <Filter>ヘッダーファイル</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Member.cpp">
+    <ClCompile Include="IntQueue.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="ClosedHash.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Ma_in.cpp">
+    <ClCompile Include="Main_.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
