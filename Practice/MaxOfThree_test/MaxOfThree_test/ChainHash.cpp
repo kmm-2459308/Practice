@@ -98,9 +98,9 @@ void Clear(ChainHash* h)
 	}
 }
 void Terminate(ChainHash* h)
-{
 	Clear(h);
-	free(h->table);
+	free(h->table);{
+
 	h->size = 0;
 }
 static int hash(const ChainHash* h, const Member* x)
