@@ -19,11 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="IntStack.cpp" />
-    <ClCompile Include="RecurAnalysis_NotRecursive.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="IntStack.h" />
+    <ClCompile Include="RecurAnalysis_Memo.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
