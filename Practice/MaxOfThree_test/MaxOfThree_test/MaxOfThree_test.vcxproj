@@ -19,11 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="IntStack.cpp" />
-    <ClCompile Include="_Main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="IntStack.h" />
+    <ClCompile Include="RingBufferSample.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
