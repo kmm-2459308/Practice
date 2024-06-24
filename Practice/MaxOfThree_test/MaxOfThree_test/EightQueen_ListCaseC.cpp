@@ -41,7 +41,7 @@ void set(int column)
 
 void print()
 {
-	for (int column = 0; column < FIELD_SIZE; column+=2) {
+	for (int column = 0; column < FIELD_SIZE; column++) {
 		printf("%2d", pos[column]);
 	}
 	putchar('\n');
