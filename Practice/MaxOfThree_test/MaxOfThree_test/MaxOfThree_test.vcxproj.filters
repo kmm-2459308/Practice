@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="EuclideanAlgorithm.cpp">
+    <ClCompile Include="RecurAnalysis.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
