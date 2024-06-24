@@ -31,7 +31,4 @@ int Factorial(int n)
 		// 0!‚Í1
 		return 1;
 	}
-
-	if (n = 0)
-		return 0;
 }
