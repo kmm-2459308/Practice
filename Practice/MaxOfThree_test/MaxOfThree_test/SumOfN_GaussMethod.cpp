@@ -50,5 +50,5 @@ int SumOfN_GaussMethod(int n)
 {
 	// ここをコーディングします
 	// nが奇数の時に注意してください。
-	return (1 + n) * n/2;
+	return (1 + n) * n / 2;
 }
