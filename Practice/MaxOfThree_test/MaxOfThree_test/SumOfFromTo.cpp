@@ -42,6 +42,6 @@ int SumOfFromTo(int from, int to)
 	}
 	while (to>from)
 	{
-		return (1 + to) * to/2;
+		return (1 + to) * to / 2;
 	}
 }
