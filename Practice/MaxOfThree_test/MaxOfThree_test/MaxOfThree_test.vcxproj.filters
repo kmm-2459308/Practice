@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ShellSortSample.cpp">
+    <ClCompile Include="ShellSortSample_Rev2.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
