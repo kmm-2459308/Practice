@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BubbleSortSample_NormalOrder.cpp">
+    <ClCompile Include="BubbleSortSample_IsSored.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
