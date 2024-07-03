@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="QsortSample.cpp">
+    <ClCompile Include="QsortSample_Struct.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
