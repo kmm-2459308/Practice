@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MergeTest.cpp">
+    <ClCompile Include="MergeSortSample.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
