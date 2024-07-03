@@ -19,11 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="IntStack.cpp" />
-    <ClCompile Include="QuickSortSample_NotRecursive.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="IntStack.h" />
+    <ClCompile Include="QuickSortSample_PivotSel.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
