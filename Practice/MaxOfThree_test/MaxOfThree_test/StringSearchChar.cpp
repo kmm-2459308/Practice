@@ -36,7 +36,7 @@ int main()
 int str_chr(const char* str, int c)
 {
 	int idx = 0;
-	//c = (char)c;
+	c = (char)c;
 	while (str[idx] != c) {
 		if (str[idx] == '\0') {
 			return NOT_FOUND;

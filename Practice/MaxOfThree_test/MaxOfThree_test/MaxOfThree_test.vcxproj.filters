@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="StringSearchChar.cpp">
+    <ClCompile Include="StringCompare.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
