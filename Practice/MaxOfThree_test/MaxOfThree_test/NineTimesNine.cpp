@@ -14,7 +14,7 @@ int main()
 		printf(" %d |", i);
 		for (int j = 1; j <= 9; j++)
 		{
-			if (i * j < 10)
+			if (i*j < 10)
 				printf("  %d ", i * j);
 
 			else
