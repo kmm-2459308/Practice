@@ -19,12 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ArrayLinkedList.h" />
+    <ClInclude Include="CircleDoubleLinkedList.h" />
     <ClInclude Include="Member.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ArrayLinkedList.cpp" />
-    <ClCompile Include="ArrayLinkedListSample.cpp" />
+    <ClCompile Include="CircleDoubleLinkedList.cpp" />
+    <ClCompile Include="CircleDoubleLinkedListSample.cpp" />
     <ClCompile Include="Member.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
