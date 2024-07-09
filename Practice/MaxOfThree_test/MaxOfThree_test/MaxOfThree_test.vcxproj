@@ -19,13 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Circle_DoubleLinkedList.h" />
-    <ClInclude Include="Member.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="CircleDoubleLinkedListSample_Rev2.cpp" />
-    <ClCompile Include="Circle_DoubleLinkedList.cpp" />
-    <ClCompile Include="Member.cpp" />
+    <ClCompile Include="PrintTriangle_Variety.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
