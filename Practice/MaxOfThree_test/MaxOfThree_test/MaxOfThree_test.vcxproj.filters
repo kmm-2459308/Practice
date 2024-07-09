@@ -18,7 +18,7 @@
     <ClInclude Include="Member.h">
       <Filter>ヘッダーファイル</Filter>
     </ClInclude>
-    <ClInclude Include="_LinkedList_.h">
+    <ClInclude Include="Array_LinkedList.h">
       <Filter>ヘッダーファイル</Filter>
     </ClInclude>
   </ItemGroup>
@@ -26,10 +26,10 @@
     <ClCompile Include="Member.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="_LinkedList_.cpp">
+    <ClCompile Include="Array_LinkedList.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="LinkedListSample_Retrieve.cpp">
+    <ClCompile Include="ArrayLinkedListSample_Rev2.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
