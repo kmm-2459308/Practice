@@ -171,34 +171,37 @@ void Terminate(List* list)
 void Purge(List* list, int compare(const Member* a, const Member* b))
 {
 	// ここをコーディングしてください
-	if (list->head == NullIndex || list->array[list->head].next == NullIndex) {
+	if (list->head == NullIndex || list->array[list->head].next == NullIndex) 
+	{
 		return;
 	}
 
 	Index current = list->head;
 
-	while (current != NullIndex) {
+	while (current != NullIndex) 
+	{
 		Index prev = current;
 		Index next = list->array[current].next;
 		Member* currentData = &list->array[current].data;
 
-		while (next != NullIndex) {
+		while (next != NullIndex) 
+		{
 			Member* nextData = &list->array[next].data;
 
-			if (compare(currentData, nextData) == 0) {
+			if (compare(currentData, nextData) == 0) 
+			{
 				list->array[prev].next = list->array[next].next;
 				deleteNodeIndex(list, next);
 				next = list->array[prev].next;
 			}
-			else {
+			else 
+			{
 				prev = next;
 				next = list->array[next].next;
 			}
 		}
-
 		current = list->array[current].next;
 	}
-
 	list->current = NullIndex;
 }
 // N番目のノードインデックスを取得する
@@ -208,16 +211,19 @@ Index Retrieve(List* list, int no)
 	Index ptr = list->head;
 	int count = 1;
 
-	while (ptr != NullIndex && count < no) {
+	while (ptr != NullIndex && count < no) 
+	{
 		ptr = list->array[ptr].next;
 		count++;
 	}
 
-	if (count == no && ptr != NullIndex) {
+	if (count == no && ptr != NullIndex) 
+	{
 		list->current = ptr;
 		return ptr;
 	}
-	else {
+	else 
+	{
 		return NullIndex;
 	}
 }
