@@ -19,12 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BinaryTree.cpp" />
-    <ClCompile Include="BinaryTreeSample.cpp" />
+    <ClCompile Include="BinaryTreeSample_PrintReverse.cpp" />
+    <ClCompile Include="Binary_Tree.cpp" />
     <ClCompile Include="Member.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BinaryTree.h" />
+    <ClInclude Include="Binary_Tree.h" />
     <ClInclude Include="Member.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
