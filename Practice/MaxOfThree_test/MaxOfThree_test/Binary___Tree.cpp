@@ -1,7 +1,7 @@
 //==========================================================
 //	２分探索木
 //==========================================================
-#include "Binary_Tree.h"
+#include "Binary___Tree.h"
 #include <stdio.h>   // printf(),puts()
 #include <stdlib.h>  // calloc(),free()
 
@@ -98,17 +98,6 @@ void PrintTree(const BinNode* p)
 		PrintTree(p->right);
 	}
 }
-// 全ノードの表示(降順)
-void PrintTreeReverse(const BinNode* p)
-{
-	// ここをコーディングしてください。
-	if (p != nullptr) 
-	{
-		PrintTreeReverse(p->right);
-		PrintLnMember(&p->data);
-		PrintTreeReverse(p->left);
-	}
-}
 // 全ノードの削除
 void FreeTree(BinNode* p)
 {
@@ -117,6 +106,36 @@ void FreeTree(BinNode* p)
 		FreeTree(p->right);
 		free(p);
 	}
+}
+// 最小値ノードを取得
+BinNode* GetMinNode(const BinNode* p)
+{
+	// ここをコーディングしてください。
+	if (p == nullptr)
+	{
+		return nullptr;
+	}
+
+	while (p->left != nullptr)
+	{
+		p = p->left;
+	}
+	return (BinNode*)p;
+}
+// 最大値ノードを取得
+BinNode* GetMaxNode(const BinNode* p)
+{
+	// ここをコーディングしてください。
+	if (p == nullptr)
+	{
+		return nullptr;
+	}
+
+	while (p->right != nullptr)
+	{
+		p = p->right;
+	}
+	return (BinNode*)p;
 }
 
 // ノードを動的に確保
